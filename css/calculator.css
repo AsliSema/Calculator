@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: auto;
+}
+.wrapper {
+    width: 400px;
+    background-color: #4C0027;
+    color: white;
+    border: none;
+}
+.screen{
+    padding: 25px 15px;
+    text-align: right;
+    font-size: 2rem;
+}
+.button-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.35%;
+}
+.calc-button, .calc-operators, .delete, .delete-all, .calc-equal{
+    border: none;
+    padding: 20px;
+    margin: 1px 1.5px;
+    height: 75px;
+    font-size: 25px;
+    font-weight: bold !important;
+    flex-basis: 24.5%;
+    background-color: #F0ECE3;
+}
+.calc-button:hover, .delete:hover, .delete-all:hover{
+    background-color: #DFD3C3;
+    cursor: pointer;
+}
+.double{
+    flex-basis: 50%;
+}
+.triple{
+    flex-basis: 75.3%;
+}
+.calc-operators, .calc-equal{
+    background-color: #A68DAD;
+}
+.calc-operators:hover, .calc-equal:hover{
+    background-color: #aa7eb6;
+    cursor: pointer;
+}
+
